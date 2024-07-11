@@ -12,7 +12,7 @@ class Quadrilateral {
 
 class Rectangle extends Quadrilateral {
   constructor(side1,side2){
-    super(side1, side2, side1, side2)
+    super(side1, side2, side1, side2) //shorthand notation
   }
   getArea(){
     return this.side1 * this.side2
